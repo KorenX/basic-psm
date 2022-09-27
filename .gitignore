@@ -1,4 +1,5 @@
 *.bak
+*.qws
 output_files/
 simulation/
 db/

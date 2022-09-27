@@ -51,10 +51,6 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
 set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
-set_global_assignment -name VERILOG_FILE Operation3.v
-set_global_assignment -name BDF_FILE Operation3.bdf
-set_global_assignment -name VERILOG_FILE Operation2.v
-set_global_assignment -name VERILOG_FILE Operation1.v
 set_global_assignment -name VERILOG_FILE PSM.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
